@@ -1,0 +1,129 @@
+.footer {
+  background: #90d4c5;
+  color: #286f60;
+}
+
+h4 {
+  font-weight: bolder;
+  color: #2d7564;
+}
+
+.bg-header {
+  background-image: url("/imgs/image-header.jpg");
+  height: 800px;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.contact {
+  border: 1px solid white;
+  margin-left: 1.5rem;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.contact {
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  letter-spacing: 0.8rem;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "roboto";
+}
+
+.small-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.client .card {
+  border: none;
+}
+.client h4 {
+  color: #aaaaaa;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.client h5 {
+  font-weight: bold;
+}
+.client p {
+  color: #6d6d72;
+}
+
+.four-pic .cols {
+  padding: 0;
+}
+
+.first-element .btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+.second-element .btn {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.bg-cherry, .bg-orange {
+  height: 500px;
+  position: relative;
+}
+.bg-cherry img, .bg-orange img {
+  height: 100%;
+  width: 100%;
+}
+.bg-cherry .bg-cherry-text, .bg-cherry .bg-orange-text, .bg-orange .bg-cherry-text, .bg-orange .bg-orange-text {
+  position: absolute;
+  bottom: 0;
+}
+
+@media (max-width: 575px) {
+  .four-pic .left {
+    width: 50%;
+    float: left;
+    padding: 0;
+  }
+  .four-pic .right {
+    width: 50%;
+    float: right;
+    padding: 0;
+  }
+  .first-element h2, .first-element p, .second-element h2, .second-element p {
+    text-align: center;
+  }
+  .first-element .btn, .second-element .btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .second-client .card, .third-client .card {
+    margin-top: 20px;
+  }
+  .reserved {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}/*# sourceMappingURL=main.css.map */

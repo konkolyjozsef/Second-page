@@ -1,0 +1,31 @@
+.bg-header {
+  background-image: url("/imgs/image-header.jpg");
+  height: 800px;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.contact {
+  border: 1px solid white;
+  margin-left: 1.5rem;
+  border-radius: 40px;
+  background-color: white;
+  color: black;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.contact {
+  color: black;
+  font-weight: bold;
+}
+
+h1 {
+  letter-spacing: 0.8rem;
+  font-weight: bolder;
+  font-family: cursive;
+}/*# sourceMappingURL=header.css.map */
