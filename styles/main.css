@@ -1,11 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&family=Roboto:ital,wght@1,500&display=swap");
 .footer {
   background: #90d4c5;
   color: #286f60;
 }
-
-h4 {
-  font-weight: bolder;
+.footer a {
+  text-decoration: none;
+  color: #509485;
+}
+.footer a:hover {
+  color: white;
+}
+.footer h3 {
   color: #2d7564;
+  font-size: 2rem;
+  font-weight: 900;
 }
 
 .bg-header {
@@ -15,6 +23,9 @@ h4 {
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+}
+.bg-header .hamburger {
+  border: none;
 }
 
 .contact {
@@ -34,6 +45,12 @@ a.contact {
   font-weight: bold;
 }
 
+a.contact:hover {
+  border: 1px solid #6eceff;
+  background-color: #6eceff;
+  color: white;
+}
+
 h1 {
   letter-spacing: 0.8rem;
   font-weight: bolder;
@@ -44,7 +61,6 @@ h1 {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "roboto";
 }
 
 .small-img {
@@ -77,14 +93,22 @@ h1 {
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-color: yellow;
+  text-decoration-color: #fdf5b5;
+  text-decoration-thickness: 5px;
+}
+.first-element .btn:hover {
+  text-decoration-color: #eed22c;
 }
 
 .second-element .btn {
   text-transform: uppercase;
   font-weight: bold;
   text-decoration: underline;
-  text-decoration-color: red;
+  text-decoration-color: #fad6cf;
+  text-decoration-thickness: 5px;
+}
+.second-element .btn:hover {
+  text-decoration-color: #f9725e;
 }
 
 .bg-cherry, .bg-orange {
@@ -100,6 +124,12 @@ h1 {
   bottom: 0;
 }
 
+@media (max-width: 767px) {
+  .reserved {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 @media (max-width: 575px) {
   .four-pic .left {
     width: 50%;
@@ -125,5 +155,37 @@ h1 {
   .reserved {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .navbar-nav {
+    border: 1px solid white;
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    position: relative;
+  }
+  .navbar-nav a {
+    margin: auto;
+    color: #8c8b90;
+  }
+  .navbar-nav a.contact {
+    border: 1px solid #fbd600;
+    padding: 10px 20px 10px 20px;
+    background-color: #fbd600;
+    margin-bottom: 15px;
+    color: #37380b;
+  }
+  .navbar-nav a.first-a {
+    margin-top: 10px;
+  }
+  .navbar-nav .small-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 30px 30px 0 0;
+    border-color: transparent white transparent transparent;
+    right: -1px;
+    top: -30px;
   }
 }/*# sourceMappingURL=main.css.map */

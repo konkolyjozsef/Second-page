@@ -5,6 +5,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    .hamburger{
+        border: none;
+    }
 }
 .contact{
     border: 1px solid white;
@@ -20,6 +23,11 @@ a.nav-link{
 a.contact{
     color: black;
     font-weight: bold;
+}
+a.contact:hover{
+    border: 1px solid #6eceff;
+    background-color: #6eceff;
+    color: white;
 }
 h1{
     letter-spacing: 0.8rem;

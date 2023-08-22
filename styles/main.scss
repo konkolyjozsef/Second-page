@@ -1,10 +1,12 @@
 @import 'footer';
 @import 'header';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&family=Roboto:ital,wght@1,500&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'roboto';
 }
 .small-img{
     width: 70px;
@@ -38,15 +40,24 @@
         text-transform: uppercase;
         font-weight: bold;
         text-decoration: underline;
-        text-decoration-color: yellow;
+        text-decoration-color: #fdf5b5;
+        text-decoration-thickness: 5px;
     }
+    .btn:hover{
+        text-decoration-color: #eed22c;
+    }
+
 }
 .second-element{
     .btn{
         text-transform: uppercase;
         font-weight: bold;
         text-decoration: underline;
-        text-decoration-color: red;
+        text-decoration-color: #fad6cf;
+        text-decoration-thickness: 5px;
+    }
+    .btn:hover{
+        text-decoration-color: #f9725e;
     }
 }
 .bg-cherry, .bg-orange{
@@ -63,6 +74,12 @@
 }
 
 
+@media (max-width:767px){
+    .reserved{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
 
 @media (max-width: 575px){
     .four-pic{
@@ -97,5 +114,38 @@
     .reserved{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .navbar-nav{
+        border: 1px solid white;
+        background-color: white;
+        width: 95%;
+        margin: auto;
+        margin-top: 40px;
+        position: relative;
+        a{
+            margin: auto;
+            color: #8c8b90;
+        }
+        a.contact{
+            border: 1px solid #fbd600;
+            padding: 10px 20px 10px 20px;
+            background-color: #fbd600;
+            margin-bottom: 15px;
+            color: #37380b;
+        }
+        a.first-a{
+            margin-top: 10px;
+        }
+        .small-triangle{
+            
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 30px 30px 0 0;
+            border-color: transparent white transparent transparent;  
+            right: -1px;
+            top: -30px;
+        }
     }
 }

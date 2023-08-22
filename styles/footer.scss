@@ -1,9 +1,19 @@
+
 .footer{
     background: #90d4c5;
     color: #286f60;
+    a{
+        text-decoration: none;
+        color: #509485;
+    }
+    a:hover{
+        color: white;
+    }
+    h3{
+        color: #2d7564;
+        font-size: 2rem;
+        font-weight: 900;
+    }
 }
     
-h4{
-    font-weight: bolder;
-    color: #2d7564;
-}
+
