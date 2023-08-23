@@ -61,7 +61,7 @@
     }
 }
 .bg-cherry, .bg-orange{
-    height: 500px;
+    height: 550px;
     position: relative;
     img{
         height: 100%;
@@ -72,7 +72,12 @@
         bottom: 0;
     }
 }
-
+.bg-cherry{
+    color: #255b4f;
+}
+.bg-orange{
+    color: #17546f;
+}
 
 @media (max-width:767px){
     .reserved{

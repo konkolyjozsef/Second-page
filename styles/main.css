@@ -27,6 +27,11 @@
 .bg-header .hamburger {
   border: none;
 }
+.bg-header h1 {
+  letter-spacing: 0.8rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
 
 .contact {
   border: 1px solid white;
@@ -49,12 +54,6 @@ a.contact:hover {
   border: 1px solid #6eceff;
   background-color: #6eceff;
   color: white;
-}
-
-h1 {
-  letter-spacing: 0.8rem;
-  font-weight: bolder;
-  font-family: cursive;
 }
 
 * {
@@ -112,7 +111,7 @@ h1 {
 }
 
 .bg-cherry, .bg-orange {
-  height: 500px;
+  height: 550px;
   position: relative;
 }
 .bg-cherry img, .bg-orange img {
@@ -122,6 +121,14 @@ h1 {
 .bg-cherry .bg-cherry-text, .bg-cherry .bg-orange-text, .bg-orange .bg-cherry-text, .bg-orange .bg-orange-text {
   position: absolute;
   bottom: 0;
+}
+
+.bg-cherry {
+  color: #255b4f;
+}
+
+.bg-orange {
+  color: #17546f;
 }
 
 @media (max-width: 767px) {

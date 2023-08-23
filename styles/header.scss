@@ -7,6 +7,11 @@
     color: white;
     .hamburger{
         border: none;
+    } 
+    h1{
+        letter-spacing: 0.8rem;
+        font-weight: bolder;
+        text-transform: uppercase;
     }
 }
 .contact{
@@ -28,9 +33,4 @@ a.contact:hover{
     border: 1px solid #6eceff;
     background-color: #6eceff;
     color: white;
-}
-h1{
-    letter-spacing: 0.8rem;
-    font-weight: bolder;
-    font-family: cursive;
 }

@@ -9,6 +9,11 @@
 .bg-header .hamburger {
   border: none;
 }
+.bg-header h1 {
+  letter-spacing: 0.8rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
 
 .contact {
   border: 1px solid white;
@@ -31,10 +36,4 @@ a.contact:hover {
   border: 1px solid #6eceff;
   background-color: #6eceff;
   color: white;
-}
-
-h1 {
-  letter-spacing: 0.8rem;
-  font-weight: bolder;
-  font-family: cursive;
 }/*# sourceMappingURL=header.css.map */
