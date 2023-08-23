@@ -1,6 +1,6 @@
 .footer {
   background: #90d4c5;
-  color: #286f60;
+  color: var(--Dark-moderate-cyan);
 }
 .footer a {
   text-decoration: none;

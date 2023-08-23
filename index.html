@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
   <body>
-     <header class="container bg-header">
+     <header class="bg-header">
         <nav class="navbar navbar-expand-sm">
           <div class="container-fluid mt-3">
             <h2>sunnyside</h2>
@@ -36,19 +36,21 @@
       </div>
       
     </header>
-    <main>
-      <div class="container">
+    <main style="overflow: hidden;">
         <div class="first-element">
           <div class="row reserved">
             <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
               <div class="elements">
-                <h2 class="" style="font-weight: bold;">Transform your  <br> brand</h2>
-                <p class="mt-3">We are a full-service creative agency specializing
-                   in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
-                   <a href="#" class="mt-3 btn">Learn more</a>
+                <div class="container mt-5 mb-5">
+                  <h2 class="">Transform your  <br> brand</h2>
+                  <p class="mt-3">We are a full-service creative agency specializing
+                     in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+                     <a href="#" class="mt-3 btn">Learn more</a>
+                </div>
+                
               </div>
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-6" style="padding: 0;">
+            <div class="col-sm-12 col-md-6 col-lg-6" style="padding-left: 0;">
               <img src="imgs/image-transform.jpg" class="img-fluid" alt="not available">
             </div>
           </div>
@@ -56,37 +58,39 @@
 
         <div class="second-element">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6" style="padding: 0;">
-              <img src="imgs/image-stand-out.jpg" class="img-fluid" alt="">
+            <div class="col-sm-12 col-md-6 col-lg-6" style="padding-right: 0;">
+              <img src="imgs/image-stand-out1.jpg" class="img-fluid" alt="">
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-              <div class="elements" style="margin-left: 2rem;">
-                <h2 class="mt-5" style="font-weight: bold;">Stand out to the right audience</h2>
-                <p class="mt-3"> Using a collaborative formula of designers, researchers, photographers, 
-                  videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-                   <a href="#" class="mt-2 mb-2 btn">Learn more</a>
+              <div class="elements">
+                <div class="container mt-5 mb-5">
+                  <h2 class="mt-5" style="font-weight: bold;">Stand out to the right <br> audience</h2>
+                  <p class="mt-3"> Using a collaborative formula of designers, researchers, photographers, 
+                    videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+                     <a href="#" class="mt-2 mb-2 btn">Learn more</a>
+                </div>
+                
               </div>
             </div>
           </div>
         </div>
+        
         <div class="third-elements">
           <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-6 bg-cherry d-flex justify-content-center align-items-end" style="padding: 0;">
-                <img src="/imgs/image-graphic-design.jpg" class="img-fluid" alt="">
-                  <div class="bg-cherry-text">
-                    <h2 class="mb-4 text-center">Graphic design </h2>
-                    <p class="text-center mb-5">Great design makes you memorable. We deliver <br> artwork that underscores your brand message <br> and captures potential clients’ attention.</p> 
-                  </div>
-                          
-              
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-6 bg-orange d-flex justify-content-center align-items-end" style="padding: 0;">
-              <img src="/imgs/image-photography.jpg" class="img-fluid" alt="">
-              <div class="bg-orange-text">
-                <h2 class="text-center">Photography</h2>
-                <p class="text-center mb-5"> Increase your credibility by getting the most <br> stunning, high-quality photos that improve your <br> business image.</p>
+            <div class="col-sm-12 col-md-6 col-lg-6 bg-cherry d-flex justify-content-center align-items-end">
+              <div class="cherry-text">
+                <h2 class="mb-4 text-center">Graphic design </h2>
+                    <p class="text-center mb-5">Great design makes you memorable. We deliver <br> artwork that underscores your brand message <br>
+                       and captures potential clients’ attention.</p> 
               </div>
-             
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 bg-orange  d-flex justify-content-center align-items-end">
+              <div class="orange-text">
+                <h2 class="mb-4 text-center">Photography</h2>
+                <p class="text-center mb-5"> Increase your credibility by getting the most <br>
+                   stunning, high-quality photos that improve your <br> business image.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -153,11 +157,10 @@
             </div>
           </div>
         </div>
-      </div>
         
     </main>
     <footer>
-      <div class="container footer" style="border: 1px solid #90d4c5;">
+      <div class="footer" style="border: 1px solid #90d4c5;">
           <h3 class="mt-5 text-center" style="font-weight: bold;">sunnyside</h3>
           <ul class="list-unstyled d-flex justify-content-center mt-4">
             <li class="px-4"><a href="#">About</a></li>
@@ -172,8 +175,6 @@
         </div>
       </div>
     </footer>
-    
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
