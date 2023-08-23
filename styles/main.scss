@@ -47,6 +47,10 @@ body{
     }
     .card{
         border: none;
+        .card-text{
+            width: 70%;
+            margin: auto;
+        }
     }
     h4{
         color: #aaaaaa;

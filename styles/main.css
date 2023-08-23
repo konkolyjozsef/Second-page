@@ -93,6 +93,10 @@ body {
 .client .card {
   border: none;
 }
+.client .card .card-text {
+  width: 70%;
+  margin: auto;
+}
 .client h4 {
   color: #aaaaaa;
   letter-spacing: 2px;
