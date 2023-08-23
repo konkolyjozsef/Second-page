@@ -3,10 +3,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&family=Roboto:ital,wght@1,500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&family=Roboto:ital,wght@1,500&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
+    font-size: 18px;
 }
 .small-img{
     width: 70px;
@@ -28,6 +33,9 @@
     }
     p{
         color: #6d6d72;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 }
 .four-pic{
@@ -46,6 +54,11 @@
     .btn:hover{
         text-decoration-color: #eed22c;
     }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
 
 }
 .second-element{
@@ -58,6 +71,11 @@
     }
     .btn:hover{
         text-decoration-color: #f9725e;
+    }
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
     }
 }
 .bg-cherry, .bg-orange{
@@ -74,9 +92,19 @@
 }
 .bg-cherry{
     color: #255b4f;
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
 }
 .bg-orange{
     color: #17546f;
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
 }
 
 @media (max-width:767px){

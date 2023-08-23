@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&family=Roboto:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;0,200;0,400;1,100;1,200&family=Roboto:ital,wght@1,500&display=swap");
 .footer {
   background: #90d4c5;
   color: #286f60;
@@ -62,6 +63,10 @@ a.contact:hover {
   padding: 0;
 }
 
+body {
+  font-size: 18px;
+}
+
 .small-img {
   width: 70px;
   height: 70px;
@@ -82,6 +87,9 @@ a.contact:hover {
 }
 .client p {
   color: #6d6d72;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .four-pic .cols {
@@ -98,6 +106,11 @@ a.contact:hover {
 .first-element .btn:hover {
   text-decoration-color: #eed22c;
 }
+.first-element p {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
 
 .second-element .btn {
   text-transform: uppercase;
@@ -108,6 +121,11 @@ a.contact:hover {
 }
 .second-element .btn:hover {
   text-decoration-color: #f9725e;
+}
+.second-element p {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .bg-cherry, .bg-orange {
@@ -126,9 +144,19 @@ a.contact:hover {
 .bg-cherry {
   color: #255b4f;
 }
+.bg-cherry p {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
 
 .bg-orange {
   color: #17546f;
+}
+.bg-orange p {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 767px) {
