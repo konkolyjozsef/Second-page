@@ -14,6 +14,9 @@
   font-size: 2rem;
   font-weight: 900;
 }
+.footer a img:hover {
+  background-color: white;
+}
 
 .bg-header {
   background-image: url("/imgs/image-header1.jpg");

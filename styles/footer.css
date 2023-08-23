@@ -13,4 +13,7 @@
   color: #2d7564;
   font-size: 2rem;
   font-weight: 900;
+}
+.footer a img:hover {
+  background-color: white;
 }/*# sourceMappingURL=footer.css.map */
