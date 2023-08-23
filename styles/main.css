@@ -150,6 +150,10 @@ body {
 .second-element .container {
   width: 80%;
 }
+.second-element h2 {
+  font-family: "Fraunces";
+  font-weight: 900;
+}
 .second-element p {
   font-family: "Barlow";
   font-weight: 600;
