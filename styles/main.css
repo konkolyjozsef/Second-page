@@ -6,6 +6,10 @@
   text-decoration: none;
   color: #509485;
 }
+.footer ul li a {
+  font-family: "Fraunces";
+  font-weight: 700;
+}
 .footer a:hover {
   color: white;
 }
